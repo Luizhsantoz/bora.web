@@ -17,7 +17,7 @@ CPF: 123.123.123-12
 Senha: e2etreinamentos
 
 
-### História de Usuário 2: Atualizar Limite de Crédito
+## História de Usuário 2: Atualizar Limite de Crédito
 
 Descrição:
 Como gerente de conta do E2E Bank, desejo poder atualizar o limite de crédito dos clientes de acordo com as regras estabelecidas.
