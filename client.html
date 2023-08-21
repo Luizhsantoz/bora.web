@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente Logado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="logo.png" alt="E2E Bank Logo">
+            <h1>e2E Bank</h1>
+        </div>
+    </header>
+
+    <div class="client-container">
+        <h2>Bem-vindo,</h2>
+        <p id="saldoValue">Saldo: R$ 20.000,00</p>
+        <p id="limiteValue">Limité: R$ 52.000,00</p>
+        <p id="saldoTotalValue">Saldo Total R$ 72.000,00</p>
+        <button id="atualizarCadastroBtn">Atualizar Cadastro</button>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>Todos os diretos são da <a href="https://www.e2etreinamentos.com.br" target="_blank">E2E Treinamentos</a></p>
+            </a>
+        </div>
+    </footer>
+
+    <div id="updateLimitModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" id="closeUpdateLimitModal">&times;</span>
+            <h2>Atualizar Limite da Conta</h2>
+            <label for="novoLimite">Novo Limite: </label>
+            <input type="text" id="novoLimite" placeholder="Digite o novo limite">
+            <button id="confirmUpdateBtn">Confirmar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

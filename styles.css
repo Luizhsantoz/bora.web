@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1e2a3a; /* Azul marinho escuro */
+    color: #fff;
+}
+
+/* styles.css */
+
+.client-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 400px; /* Limita a largura para um visual mais agradável em telas maiores */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.client-container h2 {
+    margin-top: 50px; /* Remove o espaçamento superior padrão */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.client-container p {
+    margin: 10px 0; /* Espaçamento entre parágrafos */
+    font-size: 18px;
+}
+
+.client-container button {
+    margin-top: 20px; /* Espaçamento superior */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Efeito de transição suave */
+}
+
+.client-container button:hover {
+    background-color: #0056b3;
+}
+
+header {
+    background-color: #fff; /* Branco */
+    align-items: center;
+    color: #1e2a3a;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaço entre o título e o logotipo */
+    padding: 0 20px;
+}
+
+.header-container img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header-container h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+footer {
+    background-color: #fff; /* Branco */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Faz o rodapé ficar no final da página */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e2a3a;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+.footer-container a {
+    margin-left: 10px;
+}
+
+.login-container {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #1e2a3a; /* Dark blue */
+    color: #fefefe; /* White */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+    color: #fefefe; /* White text */
+}
+
+.login-input::placeholder {
+    color: #fefefe; /* White placeholder text */
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #efdede;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
