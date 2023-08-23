@@ -22,7 +22,7 @@ body {
 }
 
 .client-container h2 {
-    margin-top: 50px; /* Remove o espaçamento superior padrão */
+    margin-top: 0px; /* Remove o espaçamento superior padrão */
     font-size: 24px;
     font-weight: bold;
 }
@@ -152,10 +152,10 @@ footer {
 }
 
 .modal-content {
-    background-color: #efdede;
+    background-color: #090541;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #f7f1f1;
     width: 80%;
 }
 
